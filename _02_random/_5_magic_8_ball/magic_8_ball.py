@@ -6,9 +6,11 @@ if __name__ == '__main__':
     window.withdraw()
 
     # TODO Get the user to enter a question for the 8 ball to answer
-
+    messagebox = simpledialog.askstring(title=(question), prompt=("type in a yes or no question"))
     # Make a variable and initialize it to a random number between 0 and 3
+    number = random.randint(0, 3)
 
+    for
     # If the random number is 0
 
         # tell the user "Yes"
