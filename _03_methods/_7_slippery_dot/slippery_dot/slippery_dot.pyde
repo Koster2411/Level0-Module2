@@ -8,25 +8,41 @@ import math
 def setup():
     # 2. Set the size of your sketch using the size function
     # size(width, height)
+    size(800, 800)
+    global y
+    global x
+    x=400
+    y=400
+    
     
     pass
      
 def draw():
+    
     # 3. Set the background color of your sketch
-
+    background('#08F5FF')
     # 4. Draw an ellipse using the variables created at the top
+    ellipse(x, y, 100, 100)
     # of the sketch for the location and size of your ellipse. 
     # Make sure it fits in the window. Change the variables
-    # if it does not.
+    # i8994132108641.000.
+    
+
     
     pass
 
 # This method gets called automatically when you press the mouse
 def mousePressed():
-    # 5. Change these variables to the names of the x and y
-    # variables you made in step 1
+
     global x
     global y
+    x = random(800)
+    y = random(800)
+
+    
+    # 5. Change these variables to the names of the x and y
+    # variables you made in step 1
+   
     
     # 6. The get_distance_from_mouse() function below returns a number.
     # Set the value of your distance variable to the value returned

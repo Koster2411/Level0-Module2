@@ -17,7 +17,7 @@ if __name__ == '__main__':
     elif number == 2:
         messagebox.showinfo(title=("Google"), message=("Maybe you should ask google"))
     elif number == 3:
-        messagebox.showinfo(title=("something"), message=("Maybe you know the answer"))
+        messagebox.showinfo(title=("something"), message=("You choose yes or no"))
     # If the random number is 0
 
         # tell the user "Yes"
